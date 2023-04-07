@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+} 
+
+button{
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: flex-end; */
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover{
+    color: #0088a9;
+}
+
+.box-1 {
+    width: 650px;
+    padding: 30px;
+    background: rgba(84, 80, 80, 0);
+    position: absolute;
+    top: 50%;
+    left: 32%;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.box-2 {
+    width: 350px;
+    padding: 20px;
+    color: rgba(107, 104, 104, 0.807);
+    /* code di bawah ini akan membuat div berada di tengah bawah */
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    bottom: 0;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.box-3 {
+    width: 290px;
+    padding: 20px;
+    background: #545050;
+    color: white;
+    /* code di bawah ini akan membuat div berada di tengah kanan */
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-0%, -50%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+#footer {
+    color: #fff;
+    font-size: 14px;
+    background: #000000;
+    box-shadow: 0px 2px 15px rgba(18, 66, 101, 0.08);
+  }
+
+#footer .credits {
+    padding-top: 5px;
+    font-size: 13px;
+    color: #fff;
+  }
+  
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 0px;
+    transform: translate(-50%, -50%);
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #55ACEE;
+    color: white;
+}
