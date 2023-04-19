@@ -59,8 +59,8 @@ header{
 }
 
 .box-1 {
-    width: 500px;
-    padding: 30px;
+    width: auto;
+    padding: 24px;
     background: rgba(84, 80, 80, 0);
     position: absolute;
     top: 50%;
