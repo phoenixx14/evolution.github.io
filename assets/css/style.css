@@ -60,7 +60,7 @@ header{
 
 .box-1 {
     width: auto;
-    padding: 25px;
+    padding: 30px 10%;
     background: rgba(84, 80, 80, 0);
     position: absolute;
     top: 50%;
@@ -71,7 +71,7 @@ header{
     font-weight: 500;
     font-size: 15px;
 
-    display: flex;
+    display: inline-block;
     justify-content: space-between;
     align-items: center;
 }
