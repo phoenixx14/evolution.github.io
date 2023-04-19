@@ -60,7 +60,7 @@ header{
 
 .box-1 {
     width: auto;
-    padding: 24px;
+    padding: 25px;
     background: rgba(84, 80, 80, 0);
     position: absolute;
     top: 50%;
@@ -148,4 +148,22 @@ header{
 .fa-youtube {
     background: #55ACEE;
     color: white;
+}
+
+@media (min-width: 640px) {
+    body {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 960px) {
+    body {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1100px) {
+    body {
+        font-size: 1.5rem;
+    }
 }
