@@ -24,6 +24,7 @@ button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
+
 button:hover{
     background-color: rgb(2, 55, 69);
 }
@@ -35,6 +36,10 @@ header{
     align-items: center;
     padding: 30px 10%;
     background: #15728a;
+}
+
+.pn_bg{
+    background-color: transparent;
 }
 
 .logo{
