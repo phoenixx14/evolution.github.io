@@ -4,7 +4,7 @@
 *{
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    padding: 10;
     background-color: #000000;
 }
 
@@ -18,14 +18,14 @@ li, a, button{
 
 button{
     padding: 9px 25px;
-    background-color: rgba(0,136,169,1);
+    background-color: rgb(4, 84, 104);
     border: none;
     border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
 }
 button:hover{
-    background-color: rgba(0,136,169,0.8);
+    background-color: rgb(2, 55, 69);
 }
 
 header{
@@ -34,11 +34,13 @@ header{
     /* justify-content: flex-end; */
     align-items: center;
     padding: 30px 10%;
+    background: #15728a;
 }
 
 .logo{
     cursor: pointer;
     margin-right: auto;
+    background-color: transparent;
 }
 
 .nav__links{
